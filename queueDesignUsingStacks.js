@@ -1,7 +1,15 @@
 
+/**
+ * Intution:
+ * Here  i am using in and out stack concept.
+ * Outstack contains the data that are in the reverse order of in stack, which will help us pop the firdt element that gets in
+ * Not allocating space to the array in the constructor, as the main way to test whether it is empty or not is by checking it's length. If we allocate the space, the length always holds some value and even though there is no data.
+ * 
+ */
+
 class MyQueue {
     constructor() {
-        // Not allocating space as the main way to test whether it is empty or not is by checking it's length. If we allocate the space, the length always holds some value and even though there is no data.
+        
         this.inStack = [];
         this.outStack = [];
     }
