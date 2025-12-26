@@ -1,3 +1,9 @@
+/**
+ *  I used double hashing technique here
+ *  First hash function uses mod and second hash function uses division
+ *  Created a method called getFinalLocation which uses both hashOne and hashTwo functions
+ */
+
 
 class MyHashMap {
     constructor() {
