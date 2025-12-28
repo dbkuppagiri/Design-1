@@ -6,7 +6,7 @@
  * Intution:
  * Here we are imagining a 2d matrix as an array and performing the binary search
  * I set the left to the first index and set the right to the last index 
- * Inside the while we are deriving the row col based on two formulas provided in the code, and performing the binary search.
+ * Inside the while loop,  we are deriving the row col based on two formulas, and performing the binary search.
  */
 var searchMatrix = function(matrix, target) {
     // Set left to the first element of the array
