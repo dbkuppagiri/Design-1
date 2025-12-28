@@ -23,6 +23,7 @@ var searchMatrix = function(matrix, target) {
         const col = Math.floor(mid % totalCols);
         const currVal = matrix[row][col];
         if(currVal === target) {
+            // return true if element is found
             return true;
         }else if(currVal < target) {
             left = mid + 1;
@@ -30,5 +31,6 @@ var searchMatrix = function(matrix, target) {
             right = mid - 1;
         }
     }
+    // return false if nothing is found
     return false;
 };
